@@ -20,7 +20,7 @@ def map(array)
       i=1 
     end
     while i <array.length 
-       sum = yield
+       sum = yield(sum,array[i])
  
     end
  end
