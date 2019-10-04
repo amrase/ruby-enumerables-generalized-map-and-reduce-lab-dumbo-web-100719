@@ -13,7 +13,7 @@ def map(array)
  
   def reduce(array,starting_point=nil)
     if starting_point
-      return 
+      sum = starting_point
  
  
  end
