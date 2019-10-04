@@ -12,7 +12,7 @@ def map(array)
  
  
   def reduce(array,starting_point=nil)
-    if !starting_point
+    if starting_point
       return 
  
  
